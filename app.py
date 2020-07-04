@@ -1,10 +1,6 @@
 from flask import Flask,render_template,url_for,request
 import pandas as pd
-import os
-os.chdir(os.path.dirname(__file__))
 import pickle
-
-from pretty_html_table import build_table
 
 app = Flask(__name__)
 
